@@ -1,5 +1,5 @@
-# neuralink
-Codes for working on the Neuralink compression challenge (https://content.neuralink.com/compression-challenge/README.html)
+# Overview
+This repository contains codes for working on the [Neuralink compression challenge](https://content.neuralink.com/compression-challenge/README.html).
 
 # Approach
 Compressing a signal requires the existence of a basis in which its representation is sparse, or mostly sparse, compared to its dimensionality in the uncompressed basis. For lossless compression, the total energy of the signal must be contained in a finite number of dimensions in this *compression basis,* from which the signal can be reconstructed with no loss of information. For lossy compression, *most* of the signal's energy must be restricted to a few components in the compression basis, so that the less energetic components can be thrown away (set to zero) without sacrificing the information required for the target application.
